@@ -1,3 +1,4 @@
+import { signIn } from "next-auth/client";
 import Stripe from "stripe";
 
 import { version } from "../../package.json";
